@@ -1,0 +1,108 @@
+
+[
+  {
+    "id": 1,
+    "name": "Aarav",
+    "meaning": "Peaceful",
+    "gender": "Boy",
+    "origin": "Sanskrit"
+  },
+  {
+    "id": 2,
+    "name": "Aditya",
+    "meaning": "Sun",
+    "gender": "Boy",
+    "origin": "Sanskrit"
+  },
+  {
+    "id": 3,
+    "name": "Arjun",
+    "meaning": "Bright, shining",
+    "gender": "Boy",
+    "origin": "Sanskrit"
+  },
+  {
+    "id": 4,
+    "name": "Vihaan",
+    "meaning": "Dawn",
+    "gender": "Boy",
+    "origin": "Sanskrit"
+  },
+  {
+    "id": 5,
+    "name": "Ishaan",
+    "meaning": "Sun; associated with Shiva",
+    "gender": "Boy",
+    "origin": "Sanskrit"
+  },
+  {
+    "id": 6,
+    "name": "Aanya",
+    "meaning": "Meaning varies by linguistic tradition",
+    "gender": "Girl",
+    "origin": "Indian"
+  },
+  {
+    "id": 7,
+    "name": "Anaya",
+    "meaning": "Meaning varies by linguistic tradition",
+    "gender": "Girl",
+    "origin": "Indian"
+  },
+  {
+    "id": 8,
+    "name": "Diya",
+    "meaning": "Lamp; light",
+    "gender": "Girl",
+    "origin": "Sanskrit"
+  },
+  {
+    "id": 9,
+    "name": "Ira",
+    "meaning": "Meaning varies by linguistic tradition",
+    "gender": "Girl",
+    "origin": "Sanskrit"
+  },
+  {
+    "id": 10,
+    "name": "Saanvi",
+    "meaning": "Meaning varies by linguistic tradition",
+    "gender": "Girl",
+    "origin": "Indian"
+  },
+  {
+    "id": 11,
+    "name": "Avery",
+    "meaning": "Ruler of the elves",
+    "gender": "Unisex",
+    "origin": "English"
+  },
+  {
+    "id": 12,
+    "name": "Jordan",
+    "meaning": "To flow down",
+    "gender": "Unisex",
+    "origin": "Hebrew"
+  },
+  {
+    "id": 13,
+    "name": "Riley",
+    "meaning": "Meaning varies by name tradition",
+    "gender": "Unisex",
+    "origin": "Irish"
+  },
+  {
+    "id": 14,
+    "name": "Noah",
+    "meaning": "Rest; comfort",
+    "gender": "Boy",
+    "origin": "Hebrew"
+  },
+  {
+    "id": 15,
+    "name": "Sophia",
+    "meaning": "Wisdom",
+    "gender": "Girl",
+    "origin": "Greek"
+  }
+]
