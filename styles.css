@@ -1,0 +1,272 @@
+
+/* NameNests - Premium Pastel Design */
+
+:root {
+  --cream: #fbf8f1;
+  --sage: #718b75;
+  --sage-dark: #496650;
+  --pink: #e9c5c7;
+  --pink-light: #f8e9e8;
+  --text: #343d35;
+  --muted: #777e76;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--cream);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.header {
+  min-height: 72px;
+  padding: 15px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--cream);
+  border-bottom: 1px solid #eee9df;
+}
+
+.logo {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--sage-dark);
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 22px;
+}
+
+nav a,
+footer a {
+  color: var(--sage-dark);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover,
+footer a:hover {
+  color: #bd858c;
+}
+
+.hero {
+  text-align: center;
+  padding: 90px 20px 100px;
+  background:
+    radial-gradient(circle at 15% 20%, #f8e9e8 0, transparent 30%),
+    radial-gradient(circle at 85% 80%, #e4eddf 0, transparent 30%),
+    var(--cream);
+}
+
+.eyebrow {
+  color: #a7787c;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(38px, 8vw, 65px);
+  line-height: 1.15;
+  color: var(--sage-dark);
+  margin-bottom: 22px;
+}
+
+.hero h1 span {
+  color: #bd858c;
+  font-style: italic;
+}
+
+.intro {
+  max-width: 520px;
+  margin: 0 auto 30px;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.main-button {
+  display: inline-block;
+  padding: 13px 28px;
+  background: var(--sage);
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.main-button:hover {
+  background: var(--sage-dark);
+  transform: translateY(-2px);
+}
+
+.generator {
+  max-width: 900px;
+  margin: 55px auto;
+  padding: 35px 22px;
+  text-align: center;
+  background: var(--white);
+  border-radius: 22px;
+  box-shadow: 0 8px 35px rgba(65, 75, 60, 0.06);
+}
+
+.generator h2,
+.about h2 {
+  font-family: Georgia, serif;
+  color: var(--sage-dark);
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.generator > p {
+  color: var(--muted);
+  margin-bottom: 25px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #e6e4dc;
+  border-radius: 12px;
+  background: var(--cream);
+  color: var(--text);
+  font-size: 15px;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  border-color: var(--sage);
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.name-grid {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.name-card {
+  padding: 20px;
+  border: 1px solid #eee9df;
+  border-radius: 16px;
+  background: #fffdf9;
+  text-align: left;
+}
+
+.name-card h3 {
+  font-family: Georgia, serif;
+  font-size: 21px;
+  color: var(--sage-dark);
+}
+
+.name-card p {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.name-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.name-actions button {
+  border: 0;
+  background: var(--pink-light);
+  color: #805b60;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.about {
+  text-align: center;
+  padding: 55px 20px 70px;
+  background: #edf1e8;
+}
+
+.about p {
+  max-width: 550px;
+  margin: 12px auto 0;
+  color: var(--muted);
+}
+
+footer {
+  padding: 25px 15px;
+  text-align: center;
+  background: var(--cream);
+  border-top: 1px solid #eee9df;
+}
+
+footer p {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+footer a {
+  margin: 0 8px;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 12px 5%;
+  }
+
+  .logo {
+    font-size: 21px;
+  }
+
+  nav {
+    gap: 12px;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  .hero {
+    padding: 70px 18px;
+  }
+
+  .generator {
+    margin: 25px 12px;
+    padding: 28px 16px;
+  }
+
+  .filters,
+  .name-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .generator h2,
+  .about h2 {
+    font-size: 26px;
+  }
+}
